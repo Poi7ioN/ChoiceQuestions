@@ -103,18 +103,7 @@
   <script src="Build/UnityLoader.js"></script>
   <script>
   var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ChoiceQuestions.json", {onProgress: UnityProgress});
-  window.addEventListener("touchstart",openFullscreen);
 
-  function openFullscreen() 
-  {
-  gameInstance.SendMessage("FullScreen","SetFullScreen");
-  }
-  
-  function NotifyOrientation() 
-  {
-  gameInstance.SendMessage("FullScreen","GetOrientation");
-  }
-  
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
