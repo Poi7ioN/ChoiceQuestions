@@ -1,7 +1,7 @@
 {
 "companyName": "M2IConsulting",
 "productName": "ChoiceQuestions",
-"productVersion": "0.1",
+"productVersion": "1.0",
 "dataUrl": "ChoiceQuestions.data.unityweb",
 "wasmCodeUrl": "ChoiceQuestions.wasm.code.unityweb",
 "wasmFrameworkUrl": "ChoiceQuestions.wasm.framework.unityweb",
